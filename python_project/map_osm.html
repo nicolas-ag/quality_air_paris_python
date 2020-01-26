@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_7751f2fc481c4a208f1e17d1a2445d70 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7751f2fc481c4a208f1e17d1a2445d70" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_7751f2fc481c4a208f1e17d1a2445d70 = L.map(
+                                  'map_7751f2fc481c4a208f1e17d1a2445d70',
+                                  {center: [48.8649451,2.3207429],
+                                  zoom: 12.5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_3e5346d6bb654e2c90bf0cbb94b58d1a = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+        
+    
+            var tile_layer_3162c357ad2b4fb88236f84faa337ef8 = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+        
+    
+            var circle_marker_49fe143a2a804bf68bdeb85684fad964 = L.circleMarker(
+                [48.8534769,2.3333554],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_1257552f29aa47b0baccb8485a2d22fd = L.popup({maxWidth: '300'});
+
+            
+                var html_904d5f68afe142348c39a03fd661c341 = $('<div id="html_904d5f68afe142348c39a03fd661c341" style="width: 100.0%; height: 100.0%;">Avenue Bonaparte Paris [ indice NO2 : 29.43 ]  le 25/09/2016</div>')[0];
+                popup_1257552f29aa47b0baccb8485a2d22fd.setContent(html_904d5f68afe142348c39a03fd661c341);
+            
+
+            circle_marker_49fe143a2a804bf68bdeb85684fad964.bindPopup(popup_1257552f29aa47b0baccb8485a2d22fd);
+
+            
+        
+    
+            var circle_marker_e5753c99a4544c74af9b419aca550110 = L.circleMarker(
+                [48.8716884,2.3016578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_3ba402a2fcaf4c88bbf13cb69ab9f322 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b6ae3c40f5640aaa26acfe54308ea92 = $('<div id="html_2b6ae3c40f5640aaa26acfe54308ea92" style="width: 100.0%; height: 100.0%;">Avenue Champs-Elysées [ indice NO2 : 26.14 ]  le 25/09/2016</div>')[0];
+                popup_3ba402a2fcaf4c88bbf13cb69ab9f322.setContent(html_2b6ae3c40f5640aaa26acfe54308ea92);
+            
+
+            circle_marker_e5753c99a4544c74af9b419aca550110.bindPopup(popup_3ba402a2fcaf4c88bbf13cb69ab9f322);
+
+            
+        
+    
+            var circle_marker_837dbd8582ba4f42aaa379d2fe228333 = L.circleMarker(
+                [48.87432099999999,2.3231074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_5e4314984e784f4b98bdadcb2a306fc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b113006ac08485a9b85361ac12a876f = $('<div id="html_1b113006ac08485a9b85361ac12a876f" style="width: 100.0%; height: 100.0%;">Avenue Hausmann [ indice NO2 : 38.86 ]  le 25/09/2016</div>')[0];
+                popup_5e4314984e784f4b98bdadcb2a306fc2.setContent(html_1b113006ac08485a9b85361ac12a876f);
+            
+
+            circle_marker_837dbd8582ba4f42aaa379d2fe228333.bindPopup(popup_5e4314984e784f4b98bdadcb2a306fc2);
+
+            
+        
+    
+            var circle_marker_53981e31030c4b77849006d48721b963 = L.circleMarker(
+                [48.8897359,2.2418428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_b9746a82ad214bbb824116b4611d9a32 = L.popup({maxWidth: '300'});
+
+            
+                var html_990ed8c7571142db82aa96ff294755c7 = $('<div id="html_990ed8c7571142db82aa96ff294755c7" style="width: 100.0%; height: 100.0%;">La Défense [ indice NO2 : 16.29 ]  le 25/09/2016</div>')[0];
+                popup_b9746a82ad214bbb824116b4611d9a32.setContent(html_990ed8c7571142db82aa96ff294755c7);
+            
+
+            circle_marker_53981e31030c4b77849006d48721b963.bindPopup(popup_b9746a82ad214bbb824116b4611d9a32);
+
+            
+        
+    
+            var circle_marker_a41885883ce942eca9e02193785ec855 = L.circleMarker(
+                [48.8719697,2.3316014],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_0f43b08a4d0a4e279d4b89adcf1f7256 = L.popup({maxWidth: '300'});
+
+            
+                var html_21b67c1a0a394758bd46e86f90593b79 = $('<div id="html_21b67c1a0a394758bd46e86f90593b79" style="width: 100.0%; height: 100.0%;">Opéra Paris [ indice NO2 : 37.43 ]  le 25/09/2016</div>')[0];
+                popup_0f43b08a4d0a4e279d4b89adcf1f7256.setContent(html_21b67c1a0a394758bd46e86f90593b79);
+            
+
+            circle_marker_a41885883ce942eca9e02193785ec855.bindPopup(popup_0f43b08a4d0a4e279d4b89adcf1f7256);
+
+            
+        
+    
+            var circle_marker_4660d66c6a35451a9108c002eff18049 = L.circleMarker(
+                [48.85433450000001,2.3134029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_bc10e3f45fa34528ae7142c6153a39f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f792d8b8f144eb9a69ca1ec600d5cbb = $('<div id="html_3f792d8b8f144eb9a69ca1ec600d5cbb" style="width: 100.0%; height: 100.0%;">Paris 7ème arrondissement [ indice NO2 : 21.86 ]  le 25/09/2016</div>')[0];
+                popup_bc10e3f45fa34528ae7142c6153a39f2.setContent(html_3f792d8b8f144eb9a69ca1ec600d5cbb);
+            
+
+            circle_marker_4660d66c6a35451a9108c002eff18049.bindPopup(popup_bc10e3f45fa34528ae7142c6153a39f2);
+
+            
+        
+    
+            var circle_marker_ce86df999d2a4554a607b21d71490e0c = L.circleMarker(
+                [48.85837009999999,2.2944813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_7751f2fc481c4a208f1e17d1a2445d70);
+            
+    
+            var popup_2c27d18d960447bfbb2a5351282d8ba2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a51306e14d044f8aba0bd820d00576a2 = $('<div id="html_a51306e14d044f8aba0bd820d00576a2" style="width: 100.0%; height: 100.0%;">Tour Eiffel [ indice NO2 : 8.57 ]  le 25/09/2016</div>')[0];
+                popup_2c27d18d960447bfbb2a5351282d8ba2.setContent(html_a51306e14d044f8aba0bd820d00576a2);
+            
+
+            circle_marker_ce86df999d2a4554a607b21d71490e0c.bindPopup(popup_2c27d18d960447bfbb2a5351282d8ba2);
+
+            
+        
+</script>
